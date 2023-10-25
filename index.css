@@ -7,7 +7,7 @@
     --tg-color: #34A8E4;
     --github-color: #000000;
     --trans-time: 0.3s;
-    font-size: 2.5vh;
+    font-size: min(2.5vh, 2vw);
 }
 
 body {
@@ -62,7 +62,7 @@ body {
 }
 
 .main-text-animated:hover .main-text-hidden {
-    transform: translate(-1.45rem, -1.4rem) rotate(-90deg) scale(1);
+    transform: translate(-1.45rem, -1.4rem) rotate(-90deg);
     opacity: 1;
     filter: blur(0);
     color: var(--heart-color);
