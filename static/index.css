@@ -46,7 +46,7 @@ body {
 
 .main-text-animated, .main-text-hidden, .main-text-upper {
     display: inline-block;
-    transition: transform 0.7s ease-in-out, opacity 0.7s, filter 0.7s, color 0.7s;
+    transition: transform var(--trans-time) ease-in-out, opacity var(--trans-time), filter var(--trans-time), color var(--trans-time);
 }
 
 .main-text-hidden {
